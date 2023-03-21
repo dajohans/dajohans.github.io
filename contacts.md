@@ -1,5 +1,4 @@
 ---
 permalink: /contacts/
 ---
-
 # Contact information
