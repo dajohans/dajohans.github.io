@@ -21,11 +21,11 @@
       <div id="header">
         <nav>
           <ul>
-            <li class="downloads"><a href="contacts">Contacts</a></li>
-            <li class="downloads"><a href="research_interests">Research interests</a></li>
-            <li class="downloads"><a href="publications">List of publications</a></li>
-            <li class="downloads"><a href="lecture_notes">Lecture notes</a></li>
-            <li class="downloads"><a href="other_notes">Other notes</a></li>
+            <li class="downloads"><a href="{{site.baseurl}}/contacts">Contacts</a></li>
+            <li class="downloads"><a href="{{site.baseurl}}/research_interests">Research interests</a></li>
+            <li class="downloads"><a href="{{site.baseurl}}/publications">List of publications</a></li>
+            <li class="downloads"><a href="{{site.baseurl}}/lecture_notes">Lecture notes</a></li>
+            <li class="downloads"><a href="{{site.baseurl}}/other_notes">Other notes</a></li>
           </ul>
         </nav>
       </div><!-- end header -->
@@ -34,7 +34,7 @@
 
       <section>
         <li>
-          <a href="test.html">test menu entry</a>
+          <a href="{{site.baseurl}}/test.html">test menu entry</a>
         </li>
         <div id="title">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
