@@ -21,17 +21,8 @@
       <div id="header">
         <nav>
           <ul>
-            <li class="downloads"><a href="{{site.baseurl}}/contacts">Contacts</a></li>
-            <li class="downloads"><a href="{{site.baseurl}}/research_interests">Research interests</a></li>
-            <li class="downloads"><a href="{{site.baseurl}}/publications">List of publications</a></li>
-            <li class="downloads"><a href="{{site.baseurl}}/lecture_notes">Lecture notes</a></li>
-            <li class="downloads"><a href="{{site.baseurl}}/">Home</a></li>
-          </ul>
-        </nav>
-        <nav>
-          <ul>
             {% for item in site.pages %}
-              <li>
+              <li class="downloads">
                 <a href="{{item.dir}}">{{item.title}}</a>
               </li>
             {% endfor %}
