@@ -28,6 +28,15 @@
             <li class="downloads"><a href="{{site.baseurl}}/">Home</a></li>
           </ul>
         </nav>
+        <nav>
+          <ul>
+            {% for item in site.pages %}
+              <li>
+                <a href="{{site.baseurl}}/{{item.name}}">{{item.title}}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
       </div><!-- end header -->
 
     <div class="wrapper">
