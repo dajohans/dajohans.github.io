@@ -2,7 +2,7 @@
 title: Home
 rank: 1
 ---
-#David Johansson
+# David Johansson
 
 Doctoral student at University of Jyväskylä
 
