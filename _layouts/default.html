@@ -21,7 +21,7 @@
       <div id="header">
         <nav>
           <ul>
-            {% assign pages_sorted_by_rank = site.pages | sort:"rank" %}
+            {% assign pages_sorted_by_rank = site.pages | sort:"rank" | reverse %}
             {% for item in pages_sorted_by_rank %}
               {% if item.title and item.rank %}
                 <li class="downloads">
