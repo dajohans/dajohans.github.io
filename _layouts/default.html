@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     {% include head-custom.html %}
   </head>
+  
   <body>
       <div id="header">
         <nav>
@@ -32,18 +33,10 @@
           </ul>
         </nav>
       </div><!-- end header -->
-
     <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1>David Johansson</h1>
-          <p>Doctoral student at University of Jyväskylä</p>
-          <p>My work is on inverse problems for partial differential equations. I'm also a bit of an Emacs and Vim enthusiast and wish I was disciplined enough to do more programming in my spare time.</p>
-          <hr>
-        </div>
-
-        {{ content }}
+      
+    <section>
+      {{ content }}
 
       <div id="title">
         <hr>
@@ -51,7 +44,5 @@
         <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
       </div>
     </section>
-
   </body>
-
 </html>
