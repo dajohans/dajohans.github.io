@@ -23,7 +23,7 @@
           <ul>
             {% assign pages_sorted_by_rank = site.pages | sort:"rank" %}
             {% for item in pages_sorted_by_rank %}
-              {% item.title and item.rank %}
+              {% if item.title and item.rank %}
                 <li class="downloads">
                   <a href="{{item.dir}}">{{item.title}}</a>
                 </li>
